@@ -8,7 +8,7 @@ import math
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
-
+#blah
 img=mpimg.imread('001.JPG')
 img = img[:,:,1]
 plt.imshow(img, cmap="gray")
